@@ -33,8 +33,7 @@ bool empty_queue(Queue_1 *p){
     return false;
 }
 
-
- void insert_queue(Queue_1 *p, int x){
+void insert_queue(Queue_1 *p, int x){
   if (full_queue(p))
     cout << "Error! The queue is full.";
   else{
